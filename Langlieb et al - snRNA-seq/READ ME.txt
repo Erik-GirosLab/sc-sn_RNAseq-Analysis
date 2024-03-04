@@ -1,3 +1,7 @@
+snRNA-seq analysis using the langlieb et al. data set
+For more information:
+https://doi-org.proxy3.library.mcgill.ca/10.1038/s41586-023-06818-7
+
 Must create a new R project directory with the following placed inside
 "Library_Metadata.tsv"
 "Macosko_Mouse_Atlas_Single_Nuclei.Use_Backed.h5ad"
