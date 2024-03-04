@@ -1,0 +1,7 @@
+Must create a new R project directory with the following placed inside
+"Library_Metadata.tsv"
+"Macosko_Mouse_Atlas_Single_Nuclei.Use_Backed.h5ad"
+
+Files must be downloaded and uncompressed from here:
+https://docs.braincelldata.org/downloads/index.html
+https://drive.google.com/drive/folders/16XFtWxSfX7CWYzm4XkIXowuom8La83YQ
