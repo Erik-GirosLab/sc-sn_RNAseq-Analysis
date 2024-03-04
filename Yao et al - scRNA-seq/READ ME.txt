@@ -1,0 +1,12 @@
+scRNA-seq analysis using the Yao et al. data set
+For more information:
+https://doi-org.proxy3.library.mcgill.ca/10.1038/s41586-023-06812-z
+
+Must create a new R project directory with the following placed inside
+"cell_metadata_with_cluster_annotation.csv"
+"region_of_interest_metadata.csv"
+"WMB-10Xv3-STR-log2.h5ad"
+
+Most updated files must be downloaded from here:
+https://alleninstitute.github.io/abc_atlas_access/intro.html
+https://allen-brain-cell-atlas.s3.us-west-2.amazonaws.com/index.html
