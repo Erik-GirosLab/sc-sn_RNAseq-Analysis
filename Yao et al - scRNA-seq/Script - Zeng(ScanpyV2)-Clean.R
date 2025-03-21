@@ -96,7 +96,7 @@ STRDOR_metadata_Libs <- metadata %>% filter(region_of_interest_acronym %in% "STR
 STRDOR_adfiledopa_Table <- adfiledopa_Table %>% filter(rn %in% STRDOR_metadata_Libs$cell_label)
 
 #Filter cells to remove non-microglia
-# >0 can be used in place of != 0 as well, both work as there should be no cells with negative genes
+# >0 can be used in place of != 0 as well, both work as there should be no cells with a negative number genes
 STRDOR_adfiledopa_Table <- STRDOR_adfiledopa_Table %>% filter(ENSMUSG00000024397 != 0)
 
 #View and ensure you know which col is D1 and D2, then change col names
@@ -150,7 +150,7 @@ STRVEN_metadata_Libs <- metadata %>% filter(region_of_interest_acronym %in% "STR
 STRVEN_adfiledopa_Table <- adfiledopa_Table %>% filter(rn %in% STRVEN_metadata_Libs$cell_label)
 
 #Filter cells to remove non-microglia
-# >0 can be used in place of != 0 as well, both work as there should be no cells with negative genes
+# >0 can be used in place of != 0 as well, both work as there should be no cells with a negative number genes
 STRVEN_adfiledopa_Table <- STRVEN_adfiledopa_Table %>% filter(ENSMUSG00000024397 != 0)
 
 #View and ensure you know which col is D1 and D2, then change col names
