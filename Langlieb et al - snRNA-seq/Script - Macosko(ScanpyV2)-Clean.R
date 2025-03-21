@@ -84,6 +84,7 @@ STRNOLSX_metadata_Libs <- metadata %>% filter(sub_region %in% "CP")
 STRNOLSX_adfiledopa_Table <- adfiledopa_Table %>% filter(rn %in% STRNOLSX_metadata_Libs$library)
 
 #Filter cells to remove non-microglia
+# >0 can be used in place of != 0 as well, both work as there should be no cells with negative genes
 STRNOLSX_adfiledopa_Table <- STRNOLSX_adfiledopa_Table %>% filter(ENSMUSG00000024397 != 0)
 
 #View and ensure you know which col is D1 and D2, then change col names
@@ -141,6 +142,7 @@ ISO_metadata_Libs <- ISO_metadata_Libs %>% filter(sub_region %in% c("A","M"))
 ISO_adfiledopa_Table <- adfiledopa_Table %>% filter(rn %in% ISO_metadata_Libs$library)
 
 #Filter cells to remove non-microglia
+# >0 can be used in place of != 0 as well, both work as there should be no cells with negative genes
 ISO_adfiledopa_Table <- ISO_adfiledopa_Table %>% filter(ENSMUSG00000024397 != 0)
 
 #View and ensure you know which col is D1 and D2, then change col names
